@@ -42,4 +42,6 @@ public interface ILista<T extends Comparable <T>> extends Comparable <ILista<T>>
 	 */
 	public ILista<T> sublista(int pos, int numElementos) throws PosException, VacioException, NullException;
 
+	public boolean contains(Country pais);
+
 }
